@@ -112,7 +112,7 @@ def train(model, cfg, device):
   length = 0
   while steps < cfg.arch.prefill:
     action = train_env.sample_random_action()
-    next_obs, reward, done = train_env.step(action)
+    next_obs, reward, done = train_env.step(action[0])
     length += 1
     steps += done * length
     length = length * (1. - done)
