@@ -11,7 +11,7 @@ python main.py --config-file config_files/configs_atari.py
 ```
 - Results reproduction
   - Atari-Boxing
-  ![](images/boxing.png)
+  ![Atari-Boxing](images/boxing.png)
 
 ## Citation
 ```
