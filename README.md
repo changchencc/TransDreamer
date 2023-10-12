@@ -12,6 +12,10 @@ python main.py --config-file config_files/configs_atari.py
 - Results reproduction
   - Atari-Boxing
   ![Atari-Boxing](images/boxing.png)
+  - Atari-Freeway
+  ![Atari-freeway](images/freeway.png)
+  - Atari-Pong
+  ![Atari-pong](images/pong.png)
 
 ## Citation
 ```

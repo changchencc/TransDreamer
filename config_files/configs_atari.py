@@ -31,7 +31,7 @@ cfg = CN({
         'activation': 'relu',
         'pos_enc': 'temporal',
         'embedding_type': 'linear',
-        'n_layers': 4,
+        'n_layers': 6,
         'pre_lnorm': True,
         'deter_type': 'concat_o',
         'gating': False,
